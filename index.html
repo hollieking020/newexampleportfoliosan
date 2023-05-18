@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Image Gallery | CodingNepal</title>
+     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Sanrio Portfolio Website</h1>
+    <p></p>
+      
+    <a href="#portfolio-section">
+<button>Portfolio</button>
+</a> 
+      <a href="#about-section">
+<button>About Me</button>
+</a> 
+  </div>
+</div>
+ <section id="about-section">
+      <!-- about left  -->
+            <div class="about-left">
+                <img src="images/purin.jpg" alt="About Img"/>
+            </div>
+
+            <!-- about right  -->
+            <div class="about-right">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis fugiat a dolorem at similique maxime dolorum dolore
+                    enim dicta voluptatibus, illum recusandae, vel optio tempore
+                    ipsum incidunt eum. Aspernatur, repellendus.
+                </p>
+                <div class="address">
+                    <h3>Contact Me</h3>
+                    <ul>
+                        
+                        <li>
+                            <span class="address-logo">
+                               <a href="" class="fa fa-github"></a>
+                            </span>
+                            <p>Phone No</p>
+                            <span class="saprater"></span>
+                            <p>+91 987-654-4321</p>
+                        </li>
+                        <li>
+                            <span class="address-logo">
+                                 <a href="" class="fa fa-envelope-o"></a>
+                            </span>
+                            <p>Email ID</p>
+                            <span class="saprater"></span>
+                            <p>exampler@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="expertise">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>
+                            <span class="expertise-logo">
+                               <a href="https://github.com" class="fa fa-github"></a>
+
+
+                            </span>
+                            <p>GITHUB</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                                 <a href="https://linkedin.com" class="fa fa-linkedin"></a>
+
+                            </span>
+                            <p>Linkedin</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                                <a href="https://linkedin.com" class="fa fa-vimeo"></a>
+                            </span>
+                            <p>Vimeo</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                                <a href="https://youtube.com" class="fa fa-youtube"></a>
+                            </span>
+                            <p>YouTube</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+    
+    
+    </section>
+<section id="portfolio-section">
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="cinnamonroll">cinnamonroll</span>
+        <span class="item" data-name="mymelody">mymelody</span>
+        <span class="item" data-name="hellokitty">hellokitty</span>
+        <span class="item" data-name="kuromi">kuromi</span>
+        <span class="item" data-name="purin">purin</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="cinnamonroll"><span><img src="images/cinnamoroll.jpg" alt=""></span></div>
+      <div class="image" data-name="mymelody"><span><img src="images/mymelody2.jpg"></span></div>
+      <div class="image" data-name="hellokitty"><span><img src="images/hellokitty.jpg" alt=""></span></div>
+      
+    <div class="image" data-name="kuromi"><span><img src="images/kuromi.png" alt=""></span></div>
+      <div class="image" data-name="cinnamonroll"><span><img src="images/cinnamonroll2.jpg" alt=""></span></div>
+      <div class="image" data-name="purin"><span><img src="images/purin.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="cinnamoroll.jpg" alt=""></span></div>
+      <div class="image" data-name="camera"><span><img src="cinnamoroll.jpg" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category:
+          <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+ </section>
+   
+  <script src="script.js"></script>
+
+</body>
+</html>
